@@ -1,0 +1,31 @@
+/* body{
+    background-color: pink;
+} */
+
+.container-centered {
+  max-width: 600px;
+  margin: auto;
+}
+
+textarea {
+  margin: 90px auto;
+  height: 10vh;
+  position: relative;
+  width: 90%;
+  display: block;
+  padding: 1rem;
+}
+
+#btn-translate {
+    margin: auto 190px;
+    width: 150px;
+    position: relative;
+  }
+
+.output-div {
+  border: 1px solid #000;
+  height: 10vh;
+  width: 90%;
+  padding: 1rem;
+  margin: 90px auto;
+}
