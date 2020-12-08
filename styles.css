@@ -1,31 +1,60 @@
-/* body{
-    background-color: pink;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
-.container-centered {
-  max-width: 600px;
-  margin: auto;
+body {
+  background-image: url("images/minions.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.main-div {
+  padding-top: 30px;
+  display: inline-block;
+  border-radius: 150px;
+  background: #f3e853;
+  box-shadow: 20px 20px 60px #cfc547, -20px -20px 60px #ffff5f;
+  margin-left: 180px;
+  margin-top: 80px;
 }
 
 textarea {
-  margin: 90px auto;
+  margin: 20px auto;
   height: 10vh;
   position: relative;
-  width: 90%;
+  width: 50%;
   display: block;
   padding: 1rem;
+  font-family: inherit;
 }
 
 #btn-translate {
-    margin: auto 190px;
-    width: 150px;
-    position: relative;
-  }
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: auto 400px;
+  transition: 0.3s;
+}
+
+#btn-translate:hover {
+  background-color: black;
+  color: #f3e853;
+}
 
 .output-div {
   border: 1px solid #000;
   height: 10vh;
-  width: 90%;
+  width: 50%;
   padding: 1rem;
-  margin: 90px auto;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.div-text {
+  margin: auto 250px;
+  padding: 20px 20px 0px;
+  font-size: 20px;
 }
