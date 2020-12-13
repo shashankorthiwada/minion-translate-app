@@ -1,6 +1,6 @@
 Hi This is a Fun GUI App to translate English Language to Minion Language
 
-Head over it and make try some fun translations and Enjoy.....
+Head over it and try some fun translations and Enjoy.....
 
 Technologies Used:
 
